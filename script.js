@@ -8,9 +8,9 @@ setInterval(() => {
     const minuto = date.getMinutes()
     const segundo = date.getSeconds()
 
-    document.getElementById("hora").innerText = hora < 10 ? `0${hora}:` : `${hora}:`;
+    document.getElementById("hora").innerText = hora < 10 ? `0${hora}` : `${hora}`;
 
-    document.getElementById("minuto").innerText = minuto < 10 ? `0${minuto}:` : `${minuto}:`;
+    document.getElementById("minuto").innerText = minuto < 10 ? `0${minuto}` : `${minuto}`;
     
     document.getElementById("segundos").innerText = segundo < 10 ? `0${segundo}` : `${hora}`;
 
